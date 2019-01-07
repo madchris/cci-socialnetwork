@@ -1,0 +1,16 @@
+<?php
+
+function cci_cpnt_socialnetwork_install(){
+  $terms = [
+    'facebook',
+    'twitter'
+  ];
+
+  foreach ($terms AS $term) {
+    \Drupal\taxonomy\Entity\Term::create([
+      'name' => $term,
+      'vid' => 'type_socialnetwork'
+    ])->save();
+  }
+
+}
