@@ -14,3 +14,23 @@ function cci_cpnt_socialnetwork_install(){
   }*/
 
 }
+
+
+function cci_cpnt_socialnetwork_uninstall() {
+	Drupal::configFactory()->getEditable('block.block.views_block__social_network_block_socialnetwork')->delete();
+	Drupal::configFactory()->getEditable('core.entity_form_display.node.external_social_content.default')->delete();
+	Drupal::configFactory()->getEditable('core.entity_view_display.node.external_social_content.default')->delete();
+	Drupal::configFactory()->getEditable('core.entity_view_display.node.external_social_content.teaser')->delete();
+	Drupal::configFactory()->getEditable('field.field.node.external_social_content.body')->delete();
+	Drupal::configFactory()->getEditable('field.field.node.external_social_content.field_cci_id')->delete();
+	Drupal::configFactory()->getEditable('field.field.node.external_social_content.field_link')->delete();
+	Drupal::configFactory()->getEditable('field.field.node.external_social_content.field_media')->delete();
+	Drupal::configFactory()->getEditable('field.field.node.external_social_content.field_tags')->delete();
+	Drupal::configFactory()->getEditable('field.field.node.external_social_content.field_type_socialnetwork')->delete();
+	Drupal::configFactory()->getEditable('field.storage.node.field_cci_id, field.storage.node.field_link')->delete();
+	Drupal::configFactory()->getEditable('field.storage.node.field_type_socialnetwork')->delete();
+	Drupal::configFactory()->getEditable('language.content_settings.node.external_social_content')->delete();
+	Drupal::configFactory()->getEditable('node.type.external_social_content')->delete();
+	Drupal::configFactory()->getEditable('taxonomy.vocabulary.type_socialnetwork')->delete();
+	Drupal::configFactory()->getEditable('views.view.social_network')->delete();
+}
