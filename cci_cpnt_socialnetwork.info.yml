@@ -1,0 +1,13 @@
+name: Réseaux sociaux
+type: module
+description: 'Installe une barre de partage et un bloc en bas de homepage'
+package: CCI
+# core: 8.x
+
+# Information added by Drupal.org packaging script on 2018-12-18
+version: '8.x-1.0'
+core: '8.x'
+project: 'cci'
+datestamp: 1511982791
+dependencies:
+  - addtoany

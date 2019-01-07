@@ -1,0 +1,5 @@
+cci_cpnt_socialnetwork.config_settings:
+  title: 'Réseaux sociaux'
+  parent: cci_main.settings
+  description: 'Configurer les réseaux sociaux'
+  route_name: cci_cpnt_socialnetwork.config

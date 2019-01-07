@@ -1,0 +1,29 @@
+uuid: 5baae4f0-4651-48a5-a62c-6e72d98811c7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_socialnetwork
+    - node.type.external_social_content
+    - taxonomy.vocabulary.type_socialnetwork
+id: node.external_social_content.field_type_socialnetwork
+field_name: field_type_socialnetwork
+entity_type: node
+bundle: external_social_content
+label: 'Type de réseau social'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_socialnetwork: type_socialnetwork
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,88 @@
+uuid: b61a57e1-b103-49bb-be1e-fd50192cdb1f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.external_social_content.body
+    - field.field.node.external_social_content.field_cci_id
+    - field.field.node.external_social_content.field_link
+    - field.field.node.external_social_content.field_media
+    - field.field.node.external_social_content.field_tags
+    - field.field.node.external_social_content.field_type_socialnetwork
+    - node.type.external_social_content
+  module:
+    - link
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.external_social_content.default
+targetEntityType: node
+bundle: external_social_content
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_cci_id:
+    weight: 102
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_link:
+    weight: 104
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link_separate
+    region: content
+  field_media:
+    weight: 103
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_tags:
+    weight: 105
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_type_socialnetwork:
+    weight: 106
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

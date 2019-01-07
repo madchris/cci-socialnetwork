@@ -1,0 +1,9 @@
+uuid: c3c64ab4-7450-41ec-b8c2-72bfa89e8366
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de réseau social'
+vid: type_socialnetwork
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,17 @@
+uuid: 19464db6-67f9-4abd-b4b4-ccb4661a29a6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Article de réseau social'
+type: external_social_content
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

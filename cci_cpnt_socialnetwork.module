@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function cci_cpnt_socialnetwork_theme($existing, $type, $theme, $path) {
+  return [
+    'node__external_social_content__teaser' => [
+      'template' => 'node--external-social-content--teaser',
+      'base hook' => 'node',
+    ]
+  ];
+}
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function cci_cpnt_socialnetwork_views_pre_render(\Drupal\views\ViewExecutable $view) {
+  if (isset($view) && ($view->storage->id() == 'social_network')) {
+    $view->element['#attached']['library'][] = 'cci_cpnt_socialnetwork/socialnetwork';
+
+    $module_handler = \Drupal::service('module_handler');
+    $module_path = $module_handler->getModule('cci_cpnt_socialnetwork')->getPath();
+
+    $view->element['#attached']['drupalSettings']['slider_arrow_path'] = '/ '. $module_path . '/images/arrow.svg';
+  }
+}

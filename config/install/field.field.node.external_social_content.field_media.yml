@@ -1,0 +1,30 @@
+uuid: 4999970e-e27f-47a5-a0d7-6ce6862e52e0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media
+    - media.type.image
+    - media.type.video
+    - node.type.external_social_content
+id: node.external_social_content.field_media
+field_name: field_media
+entity_type: node
+bundle: external_social_content
+label: Média
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      video: video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

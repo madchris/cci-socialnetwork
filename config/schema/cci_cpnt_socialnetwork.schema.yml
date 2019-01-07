@@ -1,0 +1,10 @@
+cci_cpnt_socialnetwork.settings:
+  type: config_object
+  label: 'Social network settings'
+  mapping:
+    facebook:
+      type: string
+      label: "nom du compte facebook"
+    twitter:
+      type: string
+      label: "nom du compte twitter"

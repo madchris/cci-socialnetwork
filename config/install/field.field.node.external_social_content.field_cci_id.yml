@@ -1,0 +1,19 @@
+uuid: d370af32-5b58-46e5-909c-70a1952f3010
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_id
+    - node.type.external_social_content
+id: node.external_social_content.field_cci_id
+field_name: field_cci_id
+entity_type: node
+bundle: external_social_content
+label: 'ID du contenu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

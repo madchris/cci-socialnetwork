@@ -1,0 +1,7 @@
+cci_cpnt_socialnetwork.config:
+  path: '/admin/config/cci/socialnetwork/settings'
+  defaults:
+    _form: '\Drupal\cci_cpnt_socialnetwork\Form\cciSocialNetworkSettingsForm'
+    _title: "Configurez les accès aux réseaux sociaux"
+  requirements:
+    _permission: 'access administration pages'

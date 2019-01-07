@@ -1,0 +1,67 @@
+uuid: 71e8250a-312d-493b-8be2-87ff7a8176f6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.external_social_content.body
+    - field.field.node.external_social_content.field_cci_id
+    - field.field.node.external_social_content.field_link
+    - field.field.node.external_social_content.field_media
+    - field.field.node.external_social_content.field_tags
+    - field.field.node.external_social_content.field_type_socialnetwork
+    - node.type.external_social_content
+  module:
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.external_social_content.teaser
+targetEntityType: node
+bundle: external_social_content
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 0
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_type_socialnetwork:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  field_cci_id: true
+  field_link: true
+  langcode: true
+  links: true

@@ -1,0 +1,22 @@
+uuid: f3660b77-c175-4fec-a371-daf051cb1ff3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.external_social_content
+  module:
+    - text
+id: node.external_social_content.body
+field_name: body
+entity_type: node
+bundle: external_social_content
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

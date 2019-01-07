@@ -1,0 +1,30 @@
+uuid: a0024bdb-1e77-471a-b2a5-27405cbecc32
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.social_network
+  module:
+    - system
+    - views
+  theme:
+    - cci_drome_theme
+id: views_block__social_network_block_socialnetwork
+theme: cci_drome_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:social_network-block_socialnetwork'
+settings:
+  id: 'views_block:social_network-block_socialnetwork'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,10 @@
+socialnetwork:
+  version: VERSION
+  js:
+    '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js': {type: external}
+    js/socialnetwork.js: {}
+  css:
+    layout:
+      '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css': {type: external}
+      '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css': {type: external}
+      css/socialnetwork.css: {}
