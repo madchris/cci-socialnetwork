@@ -1,0 +1,77 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/20?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/type_socialnetwork"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/type_socialnetwork\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 20
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ed73f4b4-9857-4280-8e39-663fbd8c4784"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "type_socialnetwork"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Twitter",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/type_socialnetwork\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2018-12-21T09:49:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Twitter | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/taxonomy\/term\/20"
+            }
+        }
+    ]
+}

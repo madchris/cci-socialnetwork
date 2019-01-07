@@ -1,0 +1,157 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/media\/image\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-01\/dbp-jqvv-ws-aea-ld-1-jpg-large.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-01\/dbp-jqvv-ws-aea-ld-1-jpg-large.jpg"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7
+        }
+    ],
+    "uuid": [
+        {
+            "value": "94634e05-c180-4205-b929-fee63c3a3809"
+        }
+    ],
+    "vid": [
+        {
+            "value": 7
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-01-07T16:13:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "sdg"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-01\/dbp-jqvv-ws-aea-ld-1-jpg-large.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d625ac91-af85-481f-b9ad-6a16a2c022bc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c3b13cdd-0a5d-45d7-abf8-745ce9481a73"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-01\/dbp-jqvv-ws-aea-ld-1-jpg-large.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d625ac91-af85-481f-b9ad-6a16a2c022bc"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2019-01-07T16:13:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-07T16:13:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/1"
+            }
+        }
+    ],
+    "field_media_in_library": [
+        {
+            "value": true
+        }
+    ]
+}
