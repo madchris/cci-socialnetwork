@@ -1,7 +1,7 @@
 <?php
 
 function cci_cpnt_socialnetwork_install(){
-  $terms = [
+  /*$terms = [
     'facebook',
     'twitter'
   ];
@@ -11,6 +11,6 @@ function cci_cpnt_socialnetwork_install(){
       'name' => $term,
       'vid' => 'type_socialnetwork'
     ])->save();
-  }
+  }*/
 
 }
