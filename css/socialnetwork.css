@@ -50,3 +50,7 @@
 #block-views-block-social-network-block-socialnetwork .field--name-image img{
   width: 100%;
 }
+#block-views-block-social-network-block-socialnetwork .social_type{
+  width: 27px;
+  height: 22px;
+}
