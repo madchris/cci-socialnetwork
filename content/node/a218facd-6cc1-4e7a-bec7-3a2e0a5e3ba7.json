@@ -14,13 +14,13 @@
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/uid": [
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
-                "lang": "en"
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/field_media": [
             {
                 "href": "http:\/\/default\/media\/image\/7?_format=hal_json",
-                "lang": "en"
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/field_type_socialnetwork": [
@@ -46,8 +46,8 @@
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -94,7 +94,7 @@
                         "value": "c3b13cdd-0a5d-45d7-abf8-745ce9481a73"
                     }
                 ],
-                "lang": "en"
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/field_media": [
@@ -112,7 +112,7 @@
                         "value": "94634e05-c180-4205-b929-fee63c3a3809"
                     }
                 ],
-                "lang": "en"
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/field_type_socialnetwork": [
@@ -136,51 +136,51 @@
     "status": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "title": [
         {
             "value": "facebook 4",
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-12-21T10:05:56+00:00",
-            "lang": "en",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
             "value": "2019-01-08T15:22:30+00:00",
-            "lang": "en",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
             "value": false,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "sticky": [
         {
             "value": false,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "metatag": [
@@ -198,7 +198,7 @@
             "format": "full_html",
             "processed": "<p>Embarquement pour l'international avec la French Tech. L\u2019international, et si c\u2019\u00e9tait \u00e0 votre port\u00e9e ? \u2708\ufe0f\ud83c\udf0d<\/p>\n",
             "summary": "",
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "field_link": [

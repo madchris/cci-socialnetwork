@@ -14,13 +14,13 @@
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/uid": [
             {
                 "href": "http:\/\/default\/user\/1?_format=hal_json",
-                "lang": "en"
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/field_media": [
             {
                 "href": "http:\/\/default\/media\/image\/9?_format=hal_json",
-                "lang": "en"
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/field_type_socialnetwork": [
@@ -46,8 +46,8 @@
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -94,7 +94,7 @@
                         "value": "c3b13cdd-0a5d-45d7-abf8-745ce9481a73"
                     }
                 ],
-                "lang": "en"
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/field_media": [
@@ -112,7 +112,7 @@
                         "value": "e656007d-ef2e-4e4a-bb2a-8b6db6082e4e"
                     }
                 ],
-                "lang": "en"
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/external_social_content\/field_type_socialnetwork": [
@@ -136,51 +136,51 @@
     "status": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "title": [
         {
             "value": "twitter 4",
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-12-21T10:07:33+00:00",
-            "lang": "en",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
             "value": "2019-01-08T15:22:56+00:00",
-            "lang": "en",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
             "value": false,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "sticky": [
         {
             "value": false,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "metatag": [
@@ -198,7 +198,7 @@
             "format": "full_html",
             "processed": "<p>Inauguration de la #P\u00e9pini\u00e8re @ccidrome qui accueille de jeunes entreprises \u00e0 fort potentiel<\/p>\n",
             "summary": "",
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "field_link": [
