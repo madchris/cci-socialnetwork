@@ -1,18 +1,16 @@
 <?php
 
 function cci_cpnt_socialnetwork_install(){
-  /*$terms = [
-    'facebook',
-    'twitter'
-  ];
+  file_prepare_directory("public://" . date('Y-m'));
 
-  foreach ($terms AS $term) {
-    \Drupal\taxonomy\Entity\Term::create([
-      'name' => $term,
-      'vid' => 'type_socialnetwork'
-    ])->save();
-  }*/
+  $files = file_scan_directory(drupal_get_path('module', 'cci_cpntsocialnetwork') . '/content/images');
 
+  if (is_array($files)
+    && !empty($files)) {
+    foreach ($files AS $file) {
+      file_unmanaged_move($file->uri, "public://" . date('Y-m'));
+    }
+  }
 }
 
 
